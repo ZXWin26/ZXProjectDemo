@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import ZXModule1
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        Module1Function.hello()
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,5 +1,6 @@
 PODS:
-  - ZXModule1 (0.1.0)
+  - ZXModule1 (0.1.0):
+    - ZXModule2
   - ZXModule2 (0.1.0)
   - ZXProjectDemo (0.1.0)
 
@@ -17,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZXModule1: 421d834ff25c4eac197df63b2eb255c3141ad28c
+  ZXModule1: 1e7fbe8b6f271d6b89f1573f8f4f8c0a7b7e0af0
   ZXModule2: a6519739f8fa5d66d5f351ed181fd085adba8e43
   ZXProjectDemo: 48f3b1e84b0eb201cf8922f77ef2970991001b91
 
