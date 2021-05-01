@@ -1,0 +1,6 @@
+[submodule "Modules/ZXModule1"]
+	path = Modules/ZXModule1
+	url = https://github.com/ZXWin26/ZXModule1.git
+[submodule "Modules/ZXModule2"]
+	path = Modules/ZXModule2
+	url = https://github.com/ZXWin26/ZXModule2.git
