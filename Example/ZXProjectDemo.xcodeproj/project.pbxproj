@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* ZXProjectDemo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXProjectDemo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		817B4E5B0D80768669218860 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AA23F381C21B7A9D6A317638 /* ZXProjectDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZXProjectDemo.podspec; path = ../ZXProjectDemo.podspec; sourceTree = "<group>"; };
+		817B4E5B0D80768669218860 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AA23F381C21B7A9D6A317638 /* ZXProjectDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZXProjectDemo.podspec; path = ../ZXProjectDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9C53357B9C8917CA83ADF88 /* Pods_ZXProjectDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXProjectDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA5C0BD2DBBBAF80534FEBF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CA5C0BD2DBBBAF80534FEBF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DC60E7D6553F6836A3183B2D /* Pods-ZXProjectDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXProjectDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-ZXProjectDemo_Example/Pods-ZXProjectDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E84B83B1D11F44197298C4AA /* Pods-ZXProjectDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXProjectDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZXProjectDemo_Tests/Pods-ZXProjectDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F62121FE854BCB3FB559B9B7 /* Pods-ZXProjectDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXProjectDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZXProjectDemo_Tests/Pods-ZXProjectDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				F62121FE854BCB3FB559B9B7 /* Pods-ZXProjectDemo_Tests.debug.xcconfig */,
 				E84B83B1D11F44197298C4AA /* Pods-ZXProjectDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -313,10 +313,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZXProjectDemo_Example/Pods-ZXProjectDemo_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZXModule1/ZXModule1.framework",
+				"${BUILT_PRODUCTS_DIR}/ZXModule2/ZXModule2.framework",
 				"${BUILT_PRODUCTS_DIR}/ZXProjectDemo/ZXProjectDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXModule1.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXModule2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXProjectDemo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

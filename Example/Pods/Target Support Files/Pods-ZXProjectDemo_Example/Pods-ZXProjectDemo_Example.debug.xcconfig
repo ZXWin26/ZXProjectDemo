@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZXProjectDemo"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZXModule1" "${PODS_CONFIGURATION_BUILD_DIR}/ZXModule2" "${PODS_CONFIGURATION_BUILD_DIR}/ZXProjectDemo"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZXProjectDemo/ZXProjectDemo.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZXModule1/ZXModule1.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZXModule2/ZXModule2.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZXProjectDemo/ZXProjectDemo.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "ZXProjectDemo"
+OTHER_LDFLAGS = $(inherited) -framework "ZXModule1" -framework "ZXModule2" -framework "ZXProjectDemo"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

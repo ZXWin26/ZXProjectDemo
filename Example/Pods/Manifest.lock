@@ -1,16 +1,26 @@
 PODS:
+  - ZXModule1 (0.1.0)
+  - ZXModule2 (0.1.0)
   - ZXProjectDemo (0.1.0)
 
 DEPENDENCIES:
+  - ZXModule1 (from `../Modules/ZXModule1`)
+  - ZXModule2 (from `../Modules/ZXModule2`)
   - ZXProjectDemo (from `../`)
 
 EXTERNAL SOURCES:
+  ZXModule1:
+    :path: "../Modules/ZXModule1"
+  ZXModule2:
+    :path: "../Modules/ZXModule2"
   ZXProjectDemo:
     :path: "../"
 
 SPEC CHECKSUMS:
+  ZXModule1: 421d834ff25c4eac197df63b2eb255c3141ad28c
+  ZXModule2: a6519739f8fa5d66d5f351ed181fd085adba8e43
   ZXProjectDemo: 48f3b1e84b0eb201cf8922f77ef2970991001b91
 
-PODFILE CHECKSUM: 5511e2a5ce6e0f04044f4277b0b419036c15e1d0
+PODFILE CHECKSUM: c41451f8de2d2e3bcc056d6638c78471c61d970e
 
 COCOAPODS: 1.9.1

@@ -5,6 +5,9 @@ platform :ios, '9.0'
 target 'ZXProjectDemo_Example' do
   pod 'ZXProjectDemo', :path => '../'
 
+  pod 'ZXModule1', :path => '../Modules/ZXModule1'
+  pod 'ZXModule2', :path => '../Modules/ZXModule2'
+  
   target 'ZXProjectDemo_Tests' do
     inherit! :search_paths
 
