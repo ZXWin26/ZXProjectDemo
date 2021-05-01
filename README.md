@@ -1,28 +1,10 @@
-# ZXProjectDemo
+# 组件化、模块化 - 使用"git submodule" + "development pod"集成组件Demo
 
-[![CI Status](https://img.shields.io/travis/ZXWin26/ZXProjectDemo.svg?style=flat)](https://travis-ci.org/ZXWin26/ZXProjectDemo)
-[![Version](https://img.shields.io/cocoapods/v/ZXProjectDemo.svg?style=flat)](https://cocoapods.org/pods/ZXProjectDemo)
-[![License](https://img.shields.io/cocoapods/l/ZXProjectDemo.svg?style=flat)](https://cocoapods.org/pods/ZXProjectDemo)
-[![Platform](https://img.shields.io/cocoapods/p/ZXProjectDemo.svg?style=flat)](https://cocoapods.org/pods/ZXProjectDemo)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-ZXProjectDemo is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'ZXProjectDemo'
-```
+https://www.jianshu.com/p/31bfc6a251dd
 
 ## Author
 
-ZXWin26, paul.yin@yff.com
+ZXWin26, 411184050@qq.com
 
 ## License
 
