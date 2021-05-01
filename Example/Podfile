@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZXProjectDemo_Example' do
+  pod 'ZXProjectDemo', :path => '../'
+
+  target 'ZXProjectDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
