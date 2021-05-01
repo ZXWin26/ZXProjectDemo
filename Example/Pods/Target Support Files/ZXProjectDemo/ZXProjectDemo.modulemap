@@ -1,0 +1,6 @@
+framework module ZXProjectDemo {
+  umbrella header "ZXProjectDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

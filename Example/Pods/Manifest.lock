@@ -1,0 +1,16 @@
+PODS:
+  - ZXProjectDemo (0.1.0)
+
+DEPENDENCIES:
+  - ZXProjectDemo (from `../`)
+
+EXTERNAL SOURCES:
+  ZXProjectDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZXProjectDemo: 48f3b1e84b0eb201cf8922f77ef2970991001b91
+
+PODFILE CHECKSUM: 5511e2a5ce6e0f04044f4277b0b419036c15e1d0
+
+COCOAPODS: 1.9.1
